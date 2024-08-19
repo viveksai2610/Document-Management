@@ -1,0 +1,23 @@
+.document-list-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.document-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.document-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.document-list-container li {
+  background: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
