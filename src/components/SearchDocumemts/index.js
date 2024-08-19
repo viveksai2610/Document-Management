@@ -12,7 +12,7 @@ class SearchDocumemts extends Component {
     try {
       const {searchInput} = this.state
       const response = await fetch(
-        `http://localhost:3000/search?query=${searchInput}`,
+        `http://localhost:3000/documents/search?query=${searchInput}`,
       )
       if (response.ok) {
         const fetchedData = await response.json()
